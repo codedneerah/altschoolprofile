@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me - Media Page</title>
+  </head>
+  <body>
+    <h1>About Me Through Media</h1>
+
+    <h2>Responsive Picture</h2>
+    <picture>
+      <source media="(min-width: 1024px)" srcset="images/laptop.jpg" />
+      <source media="(min-width: 768px)" srcset="images/tablet.jpg" />
+      <source media="(max-width: 767px)" srcset="images/mobile.jpg" />
+      <img src="images/default.jpg" alt="Responsive image of Munirat" />
+    </picture>
+
+    <p>This image changes depending on your device screen.</p>
+
+    <h2>Audio Message</h2>
+    <audio controls>
+      <source src="audio/intro.mp3" type="audio/mpeg" />
+      <source src="audio/intro.ogg" type="audio/ogg" />
+      Your browser does not support audio.
+    </audio>
+
+    <h2>My Journey Video</h2>
+    <video width="320" controls>
+      <source src="video/mystory.mp4" type="video/mp4" />
+      Your browser does not support video.
+    </video>
+
+    <h2>Embedded YouTube Video</h2>
+    <iframe
+      width="300"
+      height="200"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      allowfullscreen
+    ></iframe>
+
+    <p><a href="index.html">Back to Profile</a></p>
+  </body>
+</html>
