@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AltSchool Assignment - Basic Info</title>
+</head>
+<body>
+
+  <h1 id="top">My AltSchool Profile</h1>
+
+  <h2>Full Name:</h2>
+  <p>Kusamotu Munirat Abidemi</p>
+
+  <h2>AltSchool ID:</h2>
+  <p>ALT/SOE/0025/2025</p>
+
+  <h2>Biography:</h2>
+  <p>
+    I am a passionate, multi-skilled creative currently transitioning into Frontend Engineering. 
+    With a background in fashion, digital marketing, and virtual assistance, I have developed an eye for design and problem-solving.
+  </p>
+
+  <h2>Why I Joined AltSchool Africa:</h2>
+  <p>
+    I joined AltSchool to get structured, hands-on experience in software engineering. I was looking for a platform that would help me understand the fundamentals and also prepare me for real-world tech jobs.
+  </p>
+
+  <h2>My Goals for the School of Engineering:</h2>
+  <ul>
+    <li>Master HTML, CSS, and JavaScript</li>
+    <li>Build real-world responsive web apps</li>
+    <li>Become job-ready as a Frontend Developer</li>
+    <li>Collaborate on open source and team projects</li>
+    <li>Land a remote tech job after graduation</li>
+  </ul>
+
+  <p><a href="#top">Back to Top</a></p>
+
+</body>
+</html>
